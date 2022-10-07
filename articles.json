@@ -1,14 +1,1 @@
-[
-  {
-    "id": "ae3065e5",
-    "articletitle": "Title of article 1",
-    "articlepicture": "public\\1e7877bd3de3013d60fab8cc9796a6ea",
-    "articletext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
-  },
-  {
-    "id": "d492a2ac",
-    "articletitle": "Title of article 2",
-    "articlepicture": "public\\4be77de298adc334cb9745e56aeadf14",
-    "articletext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr,"
-  }
-]
+[{"id":"ae3065e5","articletitle":"Title of article 1","articlepicture":"public\\1e7877bd3de3013d60fab8cc9796a6ea","articletext":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmodLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmodLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"},{"id":"d492a2ac","articletitle":"Title of article 2","articlepicture":"public\\4be77de298adc334cb9745e56aeadf14","articletext":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, Lorem ipsum dolor sit amet, consetetur sadipscing elitr,Lorem ipsum dolor sit amet, consetetur sadipscing elitr,"},{"id":"2c4b5fdf","articletitle":"Title of article 3","articlepicture":"public\\013d4da2e90b14a8026fff8e655e8acd","articletext":" elitr, sed diam nonumy eirmodLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmodLorem ipsum dolor sit amet, con elitr, sed diam nonumy eirmodLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmodLorem ipsum dolor sit amet, con elitr, sed diam nonumy eirmodLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmodLorem ipsum dolor sit amet, con"}]
