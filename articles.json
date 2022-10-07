@@ -1,23 +1,14 @@
 [
   {
-    "articletitle": "Title 1",
-    "articlepicture": "",
-    "articletext": "Lorem ipsum dolor sit amet, consectetu ut labore et magna aliqua."
+    "id": "ae3065e5",
+    "articletitle": "Title of article 1",
+    "articlepicture": "public\\1e7877bd3de3013d60fab8cc9796a6ea",
+    "articletext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
   },
   {
-    "articletitle": "Title 2",
-    "articlepicture": "",
-    "articletext": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-  },
-  {
-    "articletitle": "7eae641d",
-    "articlepicture": "public\\e8a098014e4b2708a5f8f46b47ba5ad1",
-    "articletext": "e"
-  },
-  {
-    "id": "45f5c0dc",
-    "articletitle": "t",
-    "articlepicture": "public\\89932f9812fd45b38ceb3ca5e95409ae",
-    "articletext": "123"
+    "id": "d492a2ac",
+    "articletitle": "Title of article 2",
+    "articlepicture": "public\\4be77de298adc334cb9745e56aeadf14",
+    "articletext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr,"
   }
 ]

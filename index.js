@@ -29,6 +29,28 @@ app.get('/articles', (req,res) => {
     })
 }
 )
+
+app.get('/details/:id', async(req,res)=>{
+    console.log(req.params.id)
+    return new Promise((resolve, reject) => {
+        fs.readFile('articles.json', (err, data) => {
+            if(err)
+                reject(err)
+            else    
+                resolve(data)
+        })
+    }).then( data =>{ 
+       // console.log('Hier Test ',  JSON.parse(data).find(item => item.id === '45f5c0dc'));
+        res.status(200).json(JSON.parse(data).find(item => item.id == `${req.params.id}`));
+    } 
+       
+        )
+    .catch( err => {
+        console.log(err)
+        res.status(500).end()
+    })
+})
+
 // Add new article in 'articles.json'
 app.post('/articles', upload.single('articlepicture'),
     (req,res)=>{
@@ -67,4 +89,4 @@ app.post('/articles', upload.single('articlepicture'),
     }
 )
 
-app.listen(PORT, () => console.log('Pirate Server listens on Port:',PORT,' - '));
+app.listen(PORT, () => console.log('Server listens on Port:',PORT,' - '));
